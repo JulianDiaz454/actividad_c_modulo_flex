@@ -5,19 +5,38 @@
 }
 
 :root {
-    
+    --color-fondo-primer-componente: #003e89;
+    --color-fuente-primer-componente: #fff;
+    --color-fondo-segundo-componente: #343434;
+    --color--titulo-segundo-componente: #fff;
 }
 
-.titulo-principal {
+.titulos {
     text-align: center;
     margin-top: 20px;
 }
 
 .barra-navegacion {
     display: flex;
-    background-color: aqua;
-    justify-content: center;
+    background-color: var(--color-fondo-primer-componente);
+    justify-content: flex-end;
     align-items: center;
     height: 10vh;
     width: 100vw;
+    gap: 20px;
 }
+
+.barra-navegacion__enlaces {
+    color: var(--color-fuente-primer-componente);
+    text-decoration: none;
+    font-size: 2vh;
+}
+
+.barra-navegacion__enlaces--registro {
+    color: var(--color-fuente-primer-componente);
+    text-decoration: none;
+    margin-right: 2.5vw;
+    font-weight: bolder;
+    font-size: 2.2vh;
+}
+
