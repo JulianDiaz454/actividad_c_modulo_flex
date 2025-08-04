@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    
+}
+
+.titulo-principal {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.barra-navegacion {
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+}
