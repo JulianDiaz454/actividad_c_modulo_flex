@@ -8,7 +8,7 @@
     gap: 20px;
 }
 
-.seccion-precios_card {
+.seccion-precios__card {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,7 +21,7 @@
     display: flex;
 }
 
-.seccion-precios_card-titulo {
+.seccion-precios__card-titulo {
     background-image: linear-gradient(to right, #2c2c2c, #080808);
     padding: 0px 30px 0px 30px;
     border-radius: 20px;
@@ -31,18 +31,18 @@
     letter-spacing: 3px;
 }
 
-.seccion-precios_card-textos {
+.seccion-precios__card-textos {
     color: #a1a1a1;
     font-size: 15px;
 }
 
-.seccion-precios_card-precio {
+.seccion-precios__card-precio {
     color: white;
     font-size: 20px;
     font-weight: bold;
 }
 
-.seccion-precios_card-titulo--extra {
+.seccion-precios__card-titulo--extra {
     background-color: #ffbb00;
     padding: 0px 30px 0px 30px;
     border-radius: 20px;
@@ -52,7 +52,7 @@
     letter-spacing: 3px;
 }
 
-.seccion-precios_card-titulo--essential {
+.seccion-precios__card-titulo--essential {
     background-color: #ffffff;
     padding: 0px 30px 0px 30px;
     border-radius: 20px;
