@@ -43,8 +43,27 @@
     </div>
 
     <h1 class="titulos">FORMULARIO DE CONTACTO</h1>
-    <form>
-        
+    <form class="formulario">
+        <div class="formulario__contenedor-columnas">
+            <div class="formulario__dato">
+                <label class="formulario__label" for="nombres">Nombre</label>
+                <input class="formulario__input" type="text" id="nombres">
+            </div>
+            <div class="formulario__dato">
+                <label class="formulario__label" for="apellidos">Apellidos</label>
+                <input class="formulario__input" type="text" id="apellidos">
+            </div>
+        </div>
+        <div class="formulario__contenedor-columnas">
+            <div class="formulario__dato">
+                <label class="formulario__label" for="telefono">Telefono</label>
+                <input class="formulario__input" type="number" id="telefono">
+            </div>
+            <div class="formulario__dato">
+                <label class="formulario__label" for="correo">Correo</label>
+                <input class="formulario__input" type="email" id="correo">
+            </div>
+        </div>
     </form>
 </body>
 </html>
