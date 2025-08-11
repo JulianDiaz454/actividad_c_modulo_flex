@@ -1,3 +1,6 @@
+/* Componente 6 */
+
+/* Estilos para el bloque del componente de la lista de tareas */
 .tareas {
     background-color: #e6e6e6;
     border-radius: 20px;
@@ -9,19 +12,21 @@
     flex-direction: column;
     gap: 10px;
 }
+/* ESTILOS PARA EL BLOQUE DEL COMPONENTE */
 
+/* Estilos para el titulo del bloque */
 .tareas__titulo {
     font-size: 30px;
     font-weight: bold;
     margin: 10px;
 }
-
+/* Estilos para la etiqueta de lista */
 .tareas__lista {
     list-style: none;
     display: flex;
     flex-direction: column;
 }
-
+/* Estilos para los itemes de la listas (las tareas) */
 .tareas__item {
     flex: 1;
     background-color: #fdc3c3;
@@ -31,7 +36,7 @@
     margin: 10px;
     border: #9c0000 1.5px solid;
 }
-
+/* Modificador para representar las tareas terminadas*/
 .tareas__item--completada {
     flex: 1;
     background-color: #e9fff1;
@@ -41,7 +46,7 @@
     margin: 10px;
     border: #006b12 1.5px solid;
 }
-
+/* Aplicamos estilos por medio de una pseudo clase para los items */
 .tareas__item:hover,
 .tareas__item--completada:hover {
     transform: scale(0.97);

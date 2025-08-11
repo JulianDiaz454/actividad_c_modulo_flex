@@ -1,3 +1,6 @@
+/* Componente número 4 */
+
+/* Estilos para el bloque del componente */
 .formulario {
     margin: 0 auto;
     background-color: #eeeeee;
@@ -9,23 +12,26 @@
     gap:15px;
 }
 
+/* ESTILOS PARA LOS ELEMENTOS DEL COMPONENTE */
+
+/* Estilos para contener las columnas */
 .formulario__contenedor-columnas {
     display: flex;
     gap: 10px;
 }
-
+/* Estilos para cada categoria de dato */
 .formulario__dato {
     flex: 1;
     display: flex;
     flex-direction: column;
 }
-
+/* Estilos para los labels o nombres de los inputs */
 .formulario__label {
     font-weight: bold;
     margin: 5px;
     font-size: 15px;
 }
-
+/* Estilos para las entradas de datos */
 .formulario__input {
     margin: 5px;
     padding: 10px;

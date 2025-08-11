@@ -1,3 +1,6 @@
+/* Componente 5 */
+
+/* Estilos para el bloque del componente */
 .encabezado {
     max-width: 1000px;
     min-height: 80px;
@@ -9,12 +12,14 @@
     justify-content: center;
     gap: 10px;
 }
+/* ESTILOS DE LOS ELEMENTOS */
 
+/* Estilos para el elemento de icono dentro del encabezado */
 .encabezado__icon {
     color: white;
     font-size: 25px;
 }
-
+/* Estilos para titulo del encabezado */
 .encabezado__titulo {
     font-size: 30px;
     font-weight: bold;

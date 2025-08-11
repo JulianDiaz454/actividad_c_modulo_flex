@@ -1,3 +1,6 @@
+/* Componente 8 */
+
+/* Estilos para el bloque del componente footer */
 .footer {
     display: flex;
     margin: 0 auto;
@@ -7,7 +10,9 @@
     min-height: 360px;
     justify-content: space-around;
 }
+/* ESTILOS PARA LOS ITEMS DEL COMPONENTE */
 
+/* Estilos para las columnas (listas) del footer*/
 .footer__columnas {
     margin-top: 50px;
     font-weight: bold;
@@ -18,7 +23,7 @@
     flex-direction: column;
     gap: 10px;
 }
-
+/* Estilos para los itemes de la lista */
 .footer__items {
     font-weight: 500;
     color: rgb(221, 221, 221);

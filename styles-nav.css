@@ -1,3 +1,6 @@
+/* Primer componente */
+
+/* Clase para aplicar estilos a la etiqueta nav */
 .barra-navegacion {
     display: flex;
     background-color: var(--color-fondo-primer-componente);
@@ -7,13 +10,13 @@
     width: 100vw;
     gap: 20px;
 }
-
+/* Clase para aplicar estilos a los enlaces */
 .barra-navegacion__enlaces {
     color: var(--color-fuente-primer-componente);
     text-decoration: none;
     font-size: 2vh;
 }
-
+/* Modificador para cambiar los estilos de un enlace */
 .barra-navegacion__enlaces--registro {
     color: var(--color-fuente-primer-componente);
     text-decoration: none;

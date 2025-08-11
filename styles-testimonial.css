@@ -1,3 +1,6 @@
+/* Componente 7 */
+
+/* Estilos para el bloque del componente testimonial */
 .testimonio {
     margin: 0 auto;
     display: flex;
@@ -9,13 +12,15 @@
     align-items: center;
     justify-content: space-between;
 }
+/* ESTILOS PARA LOS ITEMS DEL COMPONENTE */
 
+/*  Estilos para el icono del componente */
 .testimonio__icon {
     font-size: 50px;
     color: white;
     margin-left: 30px;
 }
-
+/* Estilos para el texto del componente testimonial */
 .testimonio__nombre {
     color: white;
     font-size: 45px;

@@ -1,3 +1,6 @@
+/* Componente 3 */
+
+/* Estilos para el bloque de la galeria */
 .galeria {
     display: flex;
     flex-wrap: wrap;
@@ -8,12 +11,14 @@
     border-radius: 15px;
     margin: 20px auto;
 }
+/* ESTILOS PARA LOS ELEMENTOS */
 
+/* Estilos para las imagenes del componente */
 .galeria__imagen {
     width: 100%;
     height: auto;
 }
-
+/* Estilos para los contenedores del componente */
 .galeria__contenedores {
     width: 200px;
     height: 200px;

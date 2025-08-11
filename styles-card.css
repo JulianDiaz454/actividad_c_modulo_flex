@@ -1,3 +1,6 @@
+/* Segundo componente */
+
+/* Estilos para el bloque del componente */
 .tarjeta-producto {
     display: flex;
     flex-direction: column;
@@ -9,23 +12,25 @@
     border-radius: 15px;
     margin: 20px auto;
 }
+/* ELEMENTOS DEL BLOQUE */
 
+/* Estilos para el titulo de la card */
 .tarjeta-producto__titulo {
     color: var(--color-titulo-segundo-componente);
 }
-
+/* Estilos para la imagen de la card */
 .tarjeta-producto__imagen {
     height: 50%;
     width: auto;
 }
-
+/* Estilos para la descripción de la card */
 .tarjeta-producto__descripcion {
     font-size: 1.5vh;
     color: var(--color-fuente-segundo-componente);
     text-align: center;
     width: 92%;
 }
-
+/* Estilos para el boton de la card */
 .tarjeta-producto__boton {
     color: white;
     background-color: black;

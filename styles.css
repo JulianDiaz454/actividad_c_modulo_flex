@@ -1,20 +1,23 @@
-@import url(styles-nav.css);
-@import url(styles-card.css);
-@import url(styles-galery.css);
-@import url(styles.-form.css);
-@import url(styles-header.css);
-@import url(styles-tasks.css);
-@import url(styles-testimonial.css);
-@import url(styles-footer.css);
-@import url(styles-prices.css);
-@import url(styles-sidebar-vertical.css);
+/* Hoja de estilos principal. Se importan distintas hojas de estilos para cada componente*/
+@import url(styles-nav.css); /* Hoja de estilos del componente 1 */
+@import url(styles-card.css); /* Hoja de estilos del componente 2 */
+@import url(styles-galery.css); /* Hoja de estilos del componente 3 */
+@import url(styles-form.css); /* Hoja de estilos del componente 4 */
+@import url(styles-header.css); /* Hoja de estilos del componente 5 */
+@import url(styles-tasks.css); /* Hoja de estilos del componente 6 */
+@import url(styles-testimonial.css); /* Hoja de estilos del componente 7 */
+@import url(styles-footer.css); /* Hoja de estilos del componente 8 */
+@import url(styles-prices.css); /* Hoja de estilos del componente 9 */
+@import url(styles-sidebar-vertical.css); /* Hoja de estilos del componente 10 */
 
+/* Usamos el selector universal */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Creamos custom propierties para algunos colores */
 :root {
     --color-fondo-primer-componente: #003e89;
     --color-fuente-primer-componente: #fff;
@@ -23,6 +26,7 @@
     --color-fuente-segundo-componente: #fff;
 }
 
+/* Aplicamos estilos para los titulos */
 .titulos {
     text-align: center;
     margin-top: 20px;
