@@ -1,0 +1,22 @@
+.encabezado {
+    max-width: 1000px;
+    min-height: 80px;
+    margin: 0 auto;
+    background-color: rgb(49, 78, 1);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.encabezado__icon {
+    color: white;
+    font-size: 25px;
+}
+
+.encabezado__titulo {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
