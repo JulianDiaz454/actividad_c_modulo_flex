@@ -1,0 +1,64 @@
+.seccion-precios {
+    margin: 0 auto;
+    max-width: 1000px;
+    min-height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.seccion-precios_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    min-width: 280px;
+    min-height: 350px;
+    background-color: #000;
+    border: white 0.5px solid;
+    border-radius: 20px;
+    display: flex;
+}
+
+.seccion-precios_card-titulo {
+    background-image: linear-gradient(to right, #2c2c2c, #080808);
+    padding: 0px 30px 0px 30px;
+    border-radius: 20px;
+    color: #ffbb00;
+    font-size: 25px;
+    margin-bottom: 50px;
+    letter-spacing: 3px;
+}
+
+.seccion-precios_card-textos {
+    color: #a1a1a1;
+    font-size: 15px;
+}
+
+.seccion-precios_card-precio {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.seccion-precios_card-titulo--extra {
+    background-color: #ffbb00;
+    padding: 0px 30px 0px 30px;
+    border-radius: 20px;
+    color: #000;
+    font-size: 25px;
+    margin-bottom: 50px;
+    letter-spacing: 3px;
+}
+
+.seccion-precios_card-titulo--essential {
+    background-color: #ffffff;
+    padding: 0px 30px 0px 30px;
+    border-radius: 20px;
+    color: #000;
+    font-size: 25px;
+    margin-bottom: 50px;
+    letter-spacing: 3px;
+}
