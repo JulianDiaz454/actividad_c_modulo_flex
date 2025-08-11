@@ -5,6 +5,7 @@
 @import url(styles-header.css);
 @import url(styles-tasks.css);
 @import url(styles-testimonial.css);
+@import url(styles-footer.css);
 
 * {
     margin: 0;
